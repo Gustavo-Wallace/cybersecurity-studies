@@ -1,0 +1,59 @@
+# Introdução a redes
+
+## Fonte de estudo
+
+- Curso: Arquitetura de Redes por Gabriel Torres
+- Aula: Section 2: Introdução a redes
+- Data de Início: 29/04/2026
+- Data de fim: 30/05/2026
+
+## Resumo
+
+O que é uma rede? Serve para conectar dois pontos. Objetivos:
+1. Acesso a dados (ex: arquivos)
+2. Compartilhamento de recursos (ex: internet, impressora)
+3. Administração centralizada (ex: usuários e permissões)
+
+Classificação de redes por abrangência/tamanho físico:
+- Nanorredes
+- NFC (Near Field Communication ou Comunicação de campo próximo)
+- BAN (Body Area Network ou Rede de área corporal)
+- PAN (Personal Area Network ou Rede de área pessoal)
+- WPAN (Wireless Personal Area Network ou Rede de área pessoal sem fio)
+- NAN (Near-me Area Network ou Rede de área próxima a mim)
+- LAN (Local Area Network ou Rede local)
+- WLAN (Wireless Local Area Network ou Rede local sem fio)
+- HAN (Home Area Network ou Rede caseira)
+- SAN (Storage Area Network ou Rede de armazenamento)
+- CAN (Campus Area Network ou Rede de campo ou rede de campus)
+- MAN (Metropolitan Area Network ou Rede metropolitana)
+- WAN (Wide Area Network ou Rede de longo alcance)
+- GAN (Global Area Network ou Internet)
+- IAN (Internet Area Network ou Rede de área de Internet)
+- Rede interplanetária
+Núvem: uso de resurcos de umma rede cuja localização física é desconhecida.
+
+Internet: rede mundial de computadores. É uma rede pública de alcance global (GAN)
+Cada rede que faz parte da infraestrutura da internet é chamada Sistema Autônomo (SA), se uma rede cair, a internet continua funcionando. Essa característica é chamada de redundância e resiliência de rede.
+A internet é uma rede pública (Qualquer pessoa pode ter acesso), diferente de uma rede privada, que o dono pode controlar o acesso e permissão.
+A internet têm vários servições disponíveis:
+- Encaminhamento de dados entre redes (chamado de roteamento)
+- Correio eletrônico (email)
+- Voz sobre IP (VoIP) (telefonia via rede de computadores)
+- Videoconferência
+- Jogos Online
+- WWW (World-Wide Web)
+E existem vários outros serviços!
+
+Web não é a mesma coisa que Internet, a Web é um dos serviços da Internet, que é um sistema de documentos, imagens, vídeos e hipertextos conectados, que permitem a navegação entre eles, Como se fosse uma "Teia", baseando-se em URLs (Uniform Resource Locators) para identificar cada um desses recursos e utilizando navegadores (como o Chrome e Firefox) para buscar "documentos" em servidores Web.
+
+Intranet: Rede privada com funcionamento e serviços similares aos usados na Internet
+Extranet: Acesso remoto a uma rede privada, com duas formas de acesso:
+1. Acesso à Intranet através de uma página pública protegida por login e senha
+2. Acesso à rede privada através de VPN (Virtual Private Network) site-to-site, de forma criptografada (mais seguro que a primeira opção)
+
+Deep Web: Parte da web que não é indexada por mecanismos de busca. Para acessar sites não indexados você precisa saber o endereço deles.
+Dark Web: parte da Deep Web com conteúdo ilegal. Necessita de mecanismos especiais de anonimato e criptografia para ecesso.
+
+Computação centralizada: Serviços de terminal são realizado em um computador remoto, em outra localidade.
+

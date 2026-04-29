@@ -2,18 +2,12 @@
 
 ## Fonte de estudo
 
-- Curso/Livro/Artigo:
-- Aula/Capítulo:
-- Data: 0/0/2026
+- Curso:
+- Aula:
+- Data de Início: xx/xx/2026
+- Data de fim: xx/xx/2026
 
 ## Resumo
 
 
 
-## Conceitos principais
-
-- 
-
-## Exemplo prático
-
-```bash
