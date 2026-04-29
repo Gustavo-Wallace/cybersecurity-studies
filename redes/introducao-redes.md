@@ -57,3 +57,7 @@ Dark Web: parte da Deep Web com conteúdo ilegal. Necessita de mecanismos especi
 
 Computação centralizada: Serviços de terminal são realizado em um computador remoto, em outra localidade.
 
+Computação distribuída: Modelo onde múltiplos dispositívos operam de forma autônoma, mas cooperam para realizar funções e resolver um problema em comum. Garantindo: Escalabilidade, Disponibilidade, Transparência e Eficiência.
+Tipos de computação distribuída: 
+- Cliente-servidor: Aplicação servidora oferece algum serviço para aplicações cliente que necessitam daquele recurso. Exemplos: Aplicação servidora web ("servidor web") como o Apache HTTP, nginx, IIS para aplicação cliente, Chrome, Firefox.
+- 
