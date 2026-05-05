@@ -31,7 +31,7 @@ Classificação de redes por abrangência/tamanho físico:
 - GAN (Global Area Network ou Internet)
 - IAN (Internet Area Network ou Rede de área de Internet)
 - Rede interplanetária
-Núvem: uso de resurcos de umma rede cuja localização física é desconhecida.
+Nuvem: uso de recursos computacionais, como armazenamento, processamento e serviços, disponibilizados pela internet. Para o usuário, a localização física exata desses recursos geralmente não é relevante ou visível.
 
 Internet: rede mundial de computadores. É uma rede pública de alcance global (GAN)
 Cada rede que faz parte da infraestrutura da internet é chamada Sistema Autônomo (SA), se uma rede cair, a internet continua funcionando. Essa característica é chamada de redundância e resiliência de rede.
@@ -53,11 +53,11 @@ Extranet: Acesso remoto a uma rede privada, com duas formas de acesso:
 2. Acesso à rede privada através de VPN (Virtual Private Network) site-to-site, de forma criptografada (mais seguro que a primeira opção)
 
 Deep Web: Parte da web que não é indexada por mecanismos de busca. Para acessar sites não indexados você precisa saber o endereço deles.
-Dark Web: parte da Deep Web com conteúdo ilegal. Necessita de mecanismos especiais de anonimato e criptografia para ecesso.
+Dark Web: parte da Deep Web acessada por meio de ferramentas específicas de anonimato e criptografia. Pode conter conteúdos ilegais, mas também pode ser usada para privacidade, jornalismo, denúncias e comunicação em ambientes de censura.
 
 Computação centralizada: Serviços de terminal são realizado em um computador remoto, em outra localidade.
 
-Computação distribuída: Modelo onde múltiplos dispositívos operam de forma autônoma, mas cooperam para realizar funções e resolver um problema em comum. Garantindo: Escalabilidade, Disponibilidade, Transparência e Eficiência.
+Computação distribuída: Modelo onde múltiplos dispositivos operam de forma autônoma, mas cooperam para realizar funções e resolver um problema em comum. Garantindo: Escalabilidade, Disponibilidade, Transparência e Eficiência.
 Tipos de computação distribuída: 
 - Cliente-servidor: Aplicação servidora oferece algum serviço para aplicações cliente que necessitam daquele recurso. Exemplos: Aplicação servidora web ("servidor web") como o Apache HTTP, nginx, IIS para aplicação cliente, Chrome, Firefox.
 - 
