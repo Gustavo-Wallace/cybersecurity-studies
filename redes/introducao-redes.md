@@ -4,12 +4,10 @@
 
 - Curso: Arquitetura de Redes por Gabriel Torres
 - Aula: Section 2: Introdução a redes
-- Data de Início: 29/04/2026
-- Data de fim: 30/05/2026
 
 ## Resumo
 
-O que é uma rede? Serve para conectar dois pontos. Objetivos:
+**O que é uma rede?** Serve para conectar dois pontos. Objetivos:
 1. Acesso a dados (ex: arquivos)
 2. Compartilhamento de recursos (ex: internet, impressora)
 3. Administração centralizada (ex: usuários e permissões)
@@ -33,9 +31,9 @@ Classificação de redes por abrangência/tamanho físico:
 - Rede interplanetária
 Nuvem: uso de recursos computacionais, como armazenamento, processamento e serviços, disponibilizados pela internet. Para o usuário, a localização física exata desses recursos geralmente não é relevante ou visível.
 
-Internet: rede mundial de computadores. É uma rede pública de alcance global (GAN)
+**Internet:** rede mundial de computadores. É uma rede pública de alcance global (GAN)
 Cada rede que faz parte da infraestrutura da internet é chamada Sistema Autônomo (SA), se uma rede cair, a internet continua funcionando. Essa característica é chamada de redundância e resiliência de rede.
-A internet é uma rede pública (Qualquer pessoa pode ter acesso), diferente de uma rede privada, que o dono pode controlar o acesso e permissão.
+**A internet é uma rede pública (Qualquer pessoa pode ter acesso), diferente de uma rede privada, que o dono pode controlar o acesso e permissão.**
 A internet têm vários servições disponíveis:
 - Encaminhamento de dados entre redes (chamado de roteamento)
 - Correio eletrônico (email)
@@ -45,19 +43,35 @@ A internet têm vários servições disponíveis:
 - WWW (World-Wide Web)
 E existem vários outros serviços!
 
-Web não é a mesma coisa que Internet, a Web é um dos serviços da Internet, que é um sistema de documentos, imagens, vídeos e hipertextos conectados, que permitem a navegação entre eles, Como se fosse uma "Teia", baseando-se em URLs (Uniform Resource Locators) para identificar cada um desses recursos e utilizando navegadores (como o Chrome e Firefox) para buscar "documentos" em servidores Web.
+**Web não é a mesma coisa que Internet**, a Web é um dos serviços da Internet, que é um sistema de documentos, imagens, vídeos e hipertextos conectados, que permitem a navegação entre eles, Como se fosse uma "Teia", baseando-se em URLs (Uniform Resource Locators) para identificar cada um desses recursos, e utilizando navegadores (como o Chrome e Firefox) para buscar "documentos" em servidores Web.
 
-Intranet: Rede privada com funcionamento e serviços similares aos usados na Internet
-Extranet: Acesso remoto a uma rede privada, com duas formas de acesso:
+**Intranet**: Rede privada com funcionamento e serviços similares aos usados na Internet.
+**Extranet**: Acesso remoto a uma rede privada, com duas formas de acesso:
 1. Acesso à Intranet através de uma página pública protegida por login e senha
 2. Acesso à rede privada através de VPN (Virtual Private Network) site-to-site, de forma criptografada (mais seguro que a primeira opção)
 
-Deep Web: Parte da web que não é indexada por mecanismos de busca. Para acessar sites não indexados você precisa saber o endereço deles.
-Dark Web: parte da Deep Web acessada por meio de ferramentas específicas de anonimato e criptografia. Pode conter conteúdos ilegais, mas também pode ser usada para privacidade, jornalismo, denúncias e comunicação em ambientes de censura.
+**Deep Web**: Parte da web que não é indexada por mecanismos de busca. Para acessar sites não indexados você precisa saber o endereço deles.
+**Dark Web**: parte da Deep Web acessada por meio de ferramentas específicas de anonimato e criptografia. Pode conter conteúdos ilegais, mas também pode ser usada para privacidade, jornalismo, denúncias e comunicação em ambientes de censura.
 
-Computação centralizada: Serviços de terminal são realizado em um computador remoto, em outra localidade.
+**Computação centralizada**: Serviços de terminal são realizado em um computador remoto, em outra localidade.
 
-Computação distribuída: Modelo onde múltiplos dispositivos operam de forma autônoma, mas cooperam para realizar funções e resolver um problema em comum. Garantindo: Escalabilidade, Disponibilidade, Transparência e Eficiência.
+**Computação distribuída**: Modelo onde múltiplos dispositivos operam de forma autônoma, mas cooperam para realizar funções e resolver um problema em comum. Garantindo: Escalabilidade, Disponibilidade, Transparência e Eficiência.
 Tipos de computação distribuída: 
-- Cliente-servidor: Aplicação servidora oferece algum serviço para aplicações cliente que necessitam daquele recurso. Exemplos: Aplicação servidora web ("servidor web") como o Apache HTTP, nginx, IIS para aplicação cliente, Chrome, Firefox.
-- 
+- Cliente-servidor: Aplicação servidora oferece algum serviço para aplicações cliente que necessitam daquele recurso. Exemplos: Aplicação servidora web ("servidor web") como o Apache HTTP, nginx, IIS, para aplicação cliente, Chrome, Firefox.
+- Ponto a ponto (P2P): Cumputadores (nós) compartilham recursos (processamento, armazenamento ou dados) diretamente entre si, sem um servidor central, ou seja, cada nó atua tanto como cliente quanto como servidor, promovendo descentralização. Ex: Compartilhamentos de arquivos como o uTorrent, onde o usuário conecta o seu computador diretamente com outros usuários, para baixar pequenos pedaços do arquivo simultaneamente, sem um servidor central.
+
+**Redes front-end/back-end** (Computação distribuída cliente-servidor): configuração onde o cliente faz a requisição para o servidor web (front-end), que consulta um servidor de banco de dados (back-end), por exemplo.
+
+**Computação em nuvem**: Nuvem é uma infraestrutura de hardware e software de rede onde não importa sua localização física.
+Tipos de nuvem:
+- Nuvem privada: Os serviçoes e infraestrutura são mantidos em uma rede privada.
+- Nuvem pública: Os serviços e infraestrutura são mantidos por uma empresa externa.
+
+Tipos de computação em nuvem:
+1. **SaaS** (Software as a Service): Fornecimento de software pela internet, sob demanda. Os provedores de nuvem hospedam e gerenciam o aplicativo aplicativo de software. Os usuários usam o aplicativo pela internet, normalmente através de um navegador web. Ex: Google Docs, Google Drive, Office 365.
+2. **PaaS** (Platform as a Service): Fornecimento de um ambiente sob demanda para o desenvolvimento, teste, fornecimento e gerenciamento de software. Criado para facilitar desenvolvedores criarem aplicativos rapidamente, sem se preocuparem com a configuração ou o gerenciamento de infraestrutura de servidores, armazenamento, rede e banco de dados necessários para desenvolvimento. Ex: Windows Azure, AWS Elastic Beanstalk, Heroku.
+3. **IaaS** (Infrastructure as a Service): Fornecimento de uma infraestrutura de servidores virtuais, armazenamento e rede oferecidos como um componente de serviço separado, e você só pode alugar um específico pelo tempo que precisar. O provedor ferencia a infraestrutura, equanto você adquire, instala, configura e gerencia o software. Ex: Amazon Web Services (AWS), Microsoft Azure, Google Compute Engine (GCE).
+
+**Computação cooperativa** (paralelismo): Uso de múltiplos computadores para resolver problemas complexos.
+- Cluster: Computadores semelhantes (nós), conectados no mesmo lugar físico e conectados em uma mesma rede, para alta velocidade e desempenho.
+- Grade: Computadores diferentes espalhados geograficamente de forma dispersa, para larga escala de compartilhamentos de recursos.
